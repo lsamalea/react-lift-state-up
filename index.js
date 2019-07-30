@@ -104,10 +104,6 @@ class Calculator extends Component {
     });
   }
 
-  createViewModel() {
-
-  }
-
   render() {
     const { temperature, scale } = this.state;
     // todo create temperature viewmodel component 
